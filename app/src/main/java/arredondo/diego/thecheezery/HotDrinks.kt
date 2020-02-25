@@ -3,16 +3,16 @@ package arredondo.diego.thecheezery
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.activity_combos.*
 
-class LoginActivity : AppCompatActivity() {
+class HotDrinks : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_hot_drinks)
 
-        btn_signin.setOnClickListener {
-            val intent =  Intent(this, MenuActivity::class.java)
+        btnback.setOnClickListener {
+            val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
     }

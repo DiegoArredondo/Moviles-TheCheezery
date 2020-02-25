@@ -4,6 +4,16 @@
     <string name="description">Home of the most wonderful desserts ever seen (and tested) by the human being.</string>
     <string name="get_started">Get started!</string>
 
+    <string name="our_menu">OUR MENU</string>
+
+    <string name="btn_cold">Cold drinks</string>
+    <string name="btn_hot">Hot drinks</string>
+    <string name="btn_sweets">Sweets</string>
+    <string name="btn_salties">Salties</string>
+    <string name="btn_combos">Combos</string>
+    <string name="btn_personalized">Personalized</string>
+    <string name="btn_back">Go Back</string>
+
     <!-- fonts families -->
     <string name="light">sans-serif-light</string>
     <string name="condensed">sans-serif-condensed</string>
