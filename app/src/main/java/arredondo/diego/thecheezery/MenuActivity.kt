@@ -12,11 +12,11 @@ class MenuActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        btncold.setOnClickListener {startActivity(Intent(this, ColdDrinksActivity::class.java)) }
-        btnhot.setOnClickListener {startActivity(Intent(this, HotDrinks::class.java)) }
-        btnsweets.setOnClickListener {startActivity(Intent(this, SweetsActivity::class.java)) }
-        btnsalties.setOnClickListener {startActivity(Intent(this, SaltiesActivity::class.java)) }
-        btncombos.setOnClickListener {startActivity(Intent(this, CombosActivity::class.java)) }
-        btnpersonalized.setOnClickListener {startActivity(Intent(this, PersonalizedActivity::class.java)) }
+        btncold.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "coldDrinks")) }
+        btnhot.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "hotDrinks")) }
+        btnsweets.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "sweets")) }
+        btnsalties.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "salties")) }
+        btncombos.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "coldDrinks")) }
+        btnpersonalized.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "coldDrinks")) }
     }
 }
