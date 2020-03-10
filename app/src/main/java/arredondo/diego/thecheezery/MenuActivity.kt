@@ -16,7 +16,7 @@ class MenuActivity : AppCompatActivity() {
         btnhot.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "hotDrinks")) }
         btnsweets.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "sweets")) }
         btnsalties.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "salties")) }
-        btncombos.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "coldDrinks")) }
+        btncombos.setOnClickListener {startActivity(Intent(this, CombosActivity::class.java)) }
         btnpersonalized.setOnClickListener {startActivity(Intent(this, ProductosActivity::class.java).putExtra("tipoProductos", "coldDrinks")) }
     }
 }
